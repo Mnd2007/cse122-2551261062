@@ -1,0 +1,49 @@
+:root {
+            --mau-xanh: #0033CC;
+            --mau-do: #D40000;
+            --mau-vang: #FFFDE7;
+            --mau-hong: #FFD9E6;
+            --mau-vien: #9E9E9E;
+        }
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+        }
+
+        article {
+            width: 640px;
+            padding: 24px;
+            background-color: var(--mau-vang);
+            border: 1px solid var(--mau-vien);
+            text-align: center;
+            box-sizing: border-box;
+        }
+
+        h1 {
+            color: var(--mau-do);
+            background-color: var(--mau-hong);
+            font-size: 26px;
+            padding: 6px 0;
+            margin: 0 0 20px;
+        }
+
+        .kho-xanh {
+            color: var(--mau-xanh);
+            font-style: italic;
+            line-height: 1.7;
+        }
+
+        .kho-do {
+            color: var(--mau-do);
+            font-style: italic;
+            line-height: 1.7;
+        }
+        
+        hr {
+            width: 55%;
+            border: none;
+            border-top: 1px solid var(--mau-xanh);
+        }
