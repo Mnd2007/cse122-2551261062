@@ -1,0 +1,37 @@
+body {
+    background: linear-gradient(180deg, #7ec8e3, #0a5c8a);
+    min-height: 100vh;
+}
+.bai-viet{
+    background: rgba(255, 255, 255, 0.95);
+    width: 820px;
+    border-radius: 10px;
+    padding:28px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+}
+.sapo{
+    background: #0b3d5c;
+    color: #ffffff;
+    font-style: italic;
+    padding: 14px 18px;
+    border-radius: 6px;
+    
+}
+p.than-bai::first-letter {
+    color: #0b3d5c;
+    font-size: 3rem;
+    font-weight: bold;
+    float:left;
+    line-height: 0.85;
+    padding: 0.1rem 0.4rem 0 0;
+}
+.anh-noi {
+    float: right;
+    width: 260px;
+    margin: 15px 0 15px 20px;
+    border-radius: 10px;
+}
+
+
+
+
